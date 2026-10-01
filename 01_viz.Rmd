@@ -1,0 +1,21 @@
+---
+title: "01_viz"
+author: "Cecilia Zhao"
+date: "2026-10-01"
+output: github_document
+---
+
+```{r}
+library(tidyverse)
+library(ggridges)
+
+library(p8105.datasets)
+data("weather_df")
+```
+
+Now we have everything we need!
+
+```{r}
+weather_df
+```
+
